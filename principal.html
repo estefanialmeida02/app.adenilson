@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="adenilson.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </button>
+        <div class="logo_header">
+            <img src="adenilson fotos/logo_exemplo.png" class="imagem_1" alt="Logo">
+    </div>
+    <div class="navigation_header" id="navigation_header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+            </svg>
+        </button>
+        <a href="principal.html" class="botão_principal">Principal</a>
+        <a href="#" class="botão_categorias">Categorias</a>
+        <a href="sobreNos.html" class="botão_sobre_nos">sobre nós</a>
+        <a href="contatos.html" class="botão_contato">Suporte & contatos</a>
+        <a href="creditos.html" class="botão_Créditos">créditos</a>
+    </div>
+    </div>
+    <div tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <div class="slider-container">
+            <div class="slider">
+                <input type="radio" id="slide1" name="slide" checked>
+                <input type="radio" id="slide2" name="slide">
+                <input type="radio" id="slide3" name="slide">
+                <input type="radio" id="slide4" name="slide">
+                
+                <div class="slides">
+                    <div class="slide">
+                        <img src="adenilson fotos/Screenshot_664.jpg" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="adenilson fotos/Screenshot_664.jpg" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="adenilson fotos/Screenshot_664.jpg" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="adenilson fotos/Screenshot_664.jpg" alt="Image 4">
+                    </div>
+                </div>
+    
+                <div class="navigation">
+                    <label for="slide1" class="dot"></label>
+                    <label for="slide2" class="dot"></label>
+                    <label for="slide3" class="dot"></label>
+                    <label for="slide4" class="dot"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider2-container">
+            <div class="slider2">
+                <div class="slides2">
+                    <!-- Repeat this block for each image -->
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/drone1.webp" alt="Slide 1">
+                            <figcaption>
+                                <h2>Produto 1</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/drone2.webp" alt="Slide 2">
+                            <figcaption>
+                                <h2>DJI Mini 2 SE</h2>
+                                <p>R$ 2.871,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/drone3.webp" alt="Slide 3">
+                            <figcaption>
+                                <h2>Produto 3</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 4">
+                            <figcaption>
+                                <h2>Produto 4</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 4">
+                            <figcaption>
+                                <h2>Produto 5</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 5">
+                            <figcaption>
+                                <h2>Produto 6</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 6">
+                            <figcaption>
+                                <h2>Produto 7</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 7">
+                            <figcaption>
+                                <h2>Produto 8</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 8">
+                            <figcaption>
+                                <h2>Produto 9</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 9">
+                            <figcaption>
+                                <h2>Produto 10</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 10">
+                            <figcaption>
+                                <h2>Produto 11</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 11">
+                            <figcaption>
+                                <h2>Produto 12</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 12">
+                            <figcaption>
+                                <h2>Produto 13</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 13">
+                            <figcaption>
+                                <h2>Produto 14</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="slider2-container">
+            <div class="slider2">
+                <div class="slides2">
+                    <!-- Repeat this block for each image -->
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 1">
+                            <figcaption>
+                                <h2>Produto 1</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 2">
+                            <figcaption>
+                                <h2>Produto 2</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 3">
+                            <figcaption>
+                                <h2>Produto 3</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 4">
+                            <figcaption>
+                                <h2>Produto 4</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 4">
+                            <figcaption>
+                                <h2>Produto 5</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 5">
+                            <figcaption>
+                                <h2>Produto 6</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 6">
+                            <figcaption>
+                                <h2>Produto 7</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 7">
+                            <figcaption>
+                                <h2>Produto 8</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 8">
+                            <figcaption>
+                                <h2>Produto 9</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 9">
+                            <figcaption>
+                                <h2>Produto 10</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 10">
+                            <figcaption>
+                                <h2>Produto 11</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 11">
+                            <figcaption>
+                                <h2>Produto 12</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 12">
+                            <figcaption>
+                                <h2>Produto 13</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 13">
+                            <figcaption>
+                                <h2>Produto 14</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="slider2-container">
+            <div class="slider2">
+                <div class="slides2">
+                    <!-- Repeat this block for each image -->
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 1">
+                            <figcaption>
+                                <h2>Produto 1</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 2">
+                            <figcaption>
+                                <h2>Produto 2</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 3">
+                            <figcaption>
+                                <h2>Produto 3</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 4">
+                            <figcaption>
+                                <h2>Produto 4</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 4">
+                            <figcaption>
+                                <h2>Produto 5</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 5">
+                            <figcaption>
+                                <h2>Produto 6</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 6">
+                            <figcaption>
+                                <h2>Produto 7</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 7">
+                            <figcaption>
+                                <h2>Produto 8</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 8">
+                            <figcaption>
+                                <h2>Produto 9</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 9">
+                            <figcaption>
+                                <h2>Produto 10</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 10">
+                            <figcaption>
+                                <h2>Produto 11</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 11">
+                            <figcaption>
+                                <h2>Produto 12</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 12">
+                            <figcaption>
+                                <h2>Produto 13</h2>
+                                <p>R$ 100,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="slide2">
+                        <figure>
+                            <img src="adenilson fotos/Screenshot_664 (2).png" alt="Slide 13">
+                            <figcaption>
+                                <h2>Produto 14</h2>
+                                <p>R$ 200,00</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    
+    </div>
+
+    <footer class="footer4">
+        <div class="footer4-content">
+            <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+            <p>
+                <a href="politica.html">Política de Privacidade</a> |
+                <a href="termos.html">Termos de Serviço</a> |
+                <a href="contatos.html">Contato</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="adenilson.js"></script>
+</body>
+</html>
