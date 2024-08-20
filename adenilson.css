@@ -1,11 +1,11 @@
 :root{
-    --color-white: #fff;
+    --color-white: #000000;
     --color-dark1: #272727;
-    --color-dark2: #2d2d2d;
-    --color-dark3: #414141;
-    --color-dark4: #1c1c1c;
+    --color-dark2: #848383;
+    --color-dark3: #ffffff;
+    --color-dark4: #ffffff;
     --color-dark5: #343434;
-    --color-purple: #b040ff;
+    --color-purple: #000000;
 }
 *{
     margin: 0;
@@ -33,7 +33,6 @@ body {
 }
 
 .imagem_1{
-    width: 45px;
 }
 .header, .navigation_header{
     display: flex;
@@ -43,7 +42,6 @@ body {
 .header {
   background-color: var(--color-dark2);
   box-shadow: 1px 1px 4px var(--color-dark4);
-  height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
